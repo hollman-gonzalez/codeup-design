@@ -22,6 +22,9 @@ footer {
 .container{
     margin: 0;
     padding: 0;
+    justify-items: center;
+    align-self: center;
+
 }
 .logo-image{
     width: 105px;
@@ -30,7 +33,7 @@ footer {
 nav{
     text-align: center;
     width: 100%;
-    padding: none;
+    padding: 0;
 }
 .nav-bar{
     margin: 0 auto;
@@ -82,4 +85,9 @@ nav{
     font-family: "Anton", sans-serif;
     font-weight: bold;
     border: 30px solid white;
+}
+.head {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 2px;
 }
