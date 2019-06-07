@@ -1,16 +1,85 @@
-
+body {
+    background-color: #F0F0F0;
+}
+p{
+    font-family: "Abel", sans-serif;
+}
 h1 {
     text-align: center;
+    font-family: "Anton", sans-serif;
 }
 h2 {
     text-align: center;
+    font-family: "Anton", sans-serif;
 }
 h3 {
     text-align: center;
-}
-* {
-    background-color: #F0F0F0;
+    font-family: "Anton", sans-serif;
 }
 footer {
 
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.logo-image{
+    width: 105px;
+    height: 105px;
+}
+nav{
+    text-align: center;
+    width: 100%;
+    padding: none;
+}
+.nav-bar{
+    margin: 0 auto;
+}
+.nav-bar a{
+    color: black;
+}
+.apples{
+
+}
+.design-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: #E6563B;
+    line-height: 500px;
+    text-align: center;
+}
+.develop-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: #EB9D3A;
+    line-height: 500px;
+    text-align: center;
+}
+.support-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: #7CB06C;
+    line-height: 500px;
+    text-align: center;
+}
+.host-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 100px;
+    background-color: #00ABA9;
+    line-height: 500px;
+    text-align: center;
+}
+.circle{
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    border: 30px solid white;
 }
