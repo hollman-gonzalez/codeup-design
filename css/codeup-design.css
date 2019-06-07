@@ -16,9 +16,6 @@ h3 {
     text-align: center;
     font-family: "Anton", sans-serif;
 }
-footer {
-
-}
 .container{
     margin: 0;
     padding: 0;
@@ -30,16 +27,8 @@ footer {
     width: 105px;
     height: 105px;
 }
-nav{
-    text-align: center;
-    width: 100%;
-    padding: 0;
-}
-.nav-bar{
-    margin: 0 auto;
-}
-.nav-bar a{
-    color: black;
+.nav-bg{
+    background-color: white;
 }
 .apples{
 
@@ -90,4 +79,7 @@ nav{
     background-color: white;
     width: 100%;
     padding-bottom: 2px;
+}
+.head > li {
+    margin-right: 15%;
 }
