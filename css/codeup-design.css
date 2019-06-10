@@ -10,7 +10,7 @@ div.logo-bg {
     padding-bottom: 160px;
     margin-bottom: 240px;
 }
-span.logo {
+.logo {
     height: 350px;
     width: 350px;
     background-image: url("../img/logo.jpg");
@@ -74,6 +74,16 @@ h2 {
 .blue {
     background-color: #00ABA9;
 }
+.small-circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
+    text-align: center;
+}
 
 div.container {
     text-align: center;
@@ -111,30 +121,30 @@ footer {
     }
 }
 .img {
-    width: 250px;
-    height: 125px;
+    width: 475px;
+    height: 314px;
     /*border: 5px solid lightgray;*/
 }
 
 .img-apples {
     position: relative;
-    right: 125px;
+    right: 15px;
 }
 
 .img-macbook {
     position: relative;
-    left: 375px;
+    left: 440px;
 }
 
 .img-man {
     position: relative;
-    right: 125px;
-    top: 500px;
+    right: 15px;
+    top: 200px;
 
 }
 
 .img-security {
     position: relative;
-    left: 375px;
-    top: 500px;
+    left: 440px;
+    top: 200px;
 }
