@@ -110,3 +110,31 @@ footer {
         display: none;
     }
 }
+.img {
+    width: 250px;
+    height: 125px;
+    /*border: 5px solid lightgray;*/
+}
+
+.img-apples {
+    position: relative;
+    right: 125px;
+}
+
+.img-macbook {
+    position: relative;
+    left: 375px;
+}
+
+.img-man {
+    position: relative;
+    right: 125px;
+    top: 500px;
+
+}
+
+.img-security {
+    position: relative;
+    left: 375px;
+    top: 500px;
+}
