@@ -49,18 +49,18 @@ h2 {
 }
 
 .circle {
-    height: 275px;
-    width: 275px;
-    border: 18px solid white;
+    height: 225px;
+    width: 225px;
+    border: 15px solid white;
     border-radius: 50%;
     display: inline-block;
     color: white;
     font-family: 'Anton', sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
-    line-height: 225px;
-    margin-left: 1px;
-    margin-top: 15px;
+    line-height: 185px;
+    /*margin-left: 1px;*/
+    /*margin-top: 15px;*/
 }
 .red {
     background-color: #E6563B;
@@ -74,10 +74,10 @@ h2 {
 .blue {
     background-color: #00ABA9;
 }
-.small-circle {
-    height: 18px;
+.circle-icons {
+    height: 45px;
     width: 18px;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
     color: black;
     font-family: 'Anton', sans-serif;
@@ -90,8 +90,12 @@ div.container {
     font-family: 'Abel', sans-serif;
     font-size: 26px;
 }
-.selected-work {
-    margin-top: 250px;
+.selectedwork {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 25px;
 }
 
 footer {
@@ -109,7 +113,25 @@ footer {
 /*    text-align: center;*/
 
 /*}*/
+.apples-img {
+    width: 420px;
+    height: 259px;
+    border: 10px solid lightgray;
+    position: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
 
+.iconP {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+}
+.below-img {
+    position: relative;
+    top: 10px;
+    bottom: 50px;
+}
 .col > span {
     display: inline-block;
     text-align: center;

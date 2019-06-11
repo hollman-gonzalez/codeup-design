@@ -12,25 +12,27 @@
 
 </head>
 <body>
-<div class="logo-bg">
-    <span class="logo"></span>
-    <p class="codeup">codeup design</p>
-</div>
 <div class="container">
-<ul class="nav justify-content-center">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">SERVICES</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">WORK</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">BLOG</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active" href="#">CONTACT</a>
-    </li>
-</ul>
+    <div class=" logo-bg col-md-1">
+        <span class="logo"></span>
+        <p class="codeup">codeup design</p>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-3">
+            <a class="nav-link active" href="#">SERVICES</a>
+        </div>
+        <div class="col-3">
+            <a class="nav-link" href="#">WORK</a>
+        </div>
+        <div class="col-3">
+            <a class="nav-link" href="#">BLOG</a>
+        </div>
+        <div class="col-3">
+            <a class="nav-link active" href="#">CONTACT</a>
+        </div>
+    </div>
+    </div>
 </div>
 
 <h1>
@@ -44,62 +46,88 @@
 <div class="container">
     <div class="container">
         <div class="row">
-            <div class="col col-lg-3">
+            <div class="col-6 col-sm-3 col-lg-2">
         <span class="circle red">DESIGN</span>
             </div>
-            <div class="col col-lg-3">
+            <div class="col-6 col-sm-3 col-lg-2">
         <span class="circle orange">DEVELOP</span>
             </div>
-            <div class="col col-lg-3">
+            <div class="col-6 col-sm-3 col-lg-2">
         <span class="circle green">SUPPORT</span>
             </div>
-            <div class="col col-lg-3">
+            <div class="col-6 col-sm-3 col-lg-2">
         <span class="circle blue">HOST</span>
             </div>
         </div>
     </div>
-
-    <p class="selected-work">SELECTED WORK</p>
-
-</div>
-<br>
-<!--<footer>SELECTED WORK</footer>-->
-<div class="container">
-    <div class="row">
-        <div class="column col-lg-2 img-apples">
-            <img src="img/apple-ipad.jpg" alt="apples" class="img">
-            <div class="row">
-                <div class="col-2">
-                    <p>Featured Project</p>
+    <div class="selectedwork">
+        <p class="text-center text-md-left">SELECTED WORK</p>
+        <div class="row SW-cont">
+            <div class="col-12 col-sm-6 SW-box">
+                <div class="left-img">
+                    <img class="sw-img apples-img" src="img/apple-ipad.jpg" alt="apples">
+                    <div class="row below-img">
+                        <div class="col-7 featured">FEATURED PROJECT</div>
+                        <div class="col-5 dots row">
+                            <div class="col-3 circle-icons red"><p class="iconP">D</p></div>
+                            <div class="col-3 circle-icons orange"><p class="iconP">D</p></div>
+                            <div class="col-3 circle-icons green"><p class="iconP">S</p></div>
+                            <div class="col-3 circle-icons blue"><p class="iconP">H</p></div>
+                        </div>
+                    </div>
                 </div>
-                    <div class="col col-lg-1">
-                        <span class="small-circle red">D</span>
-                    </div>
-                    <div class="col col-lg-1">
-                        <span class="small-circle orange">D</span>
-                    </div>
-                    <div class="col col-lg-1">
-                        <span class="small-circle green">S</span>
-                    </div>
-                    <div class="col col-lg-1">
-                        <span class="small-circle blue">H</span>
-                    </div>
             </div>
         </div>
     </div>
-        <div class="img-hidden col-lg-2 column img-macbook">
-            <img src="img/macbook.jpg" alt="macbook" class="img">
-        </div>
-    </div>
-    <div class="container">
 
-    </div>
-    <div class="row">
-        <div class="img-hidden col-lg-2 column img-man">
-            <img src="img/man.jpg" alt="man" class="img">
+
+<!-- switched the bottom syntax with the new syntax above this-->
+
+
+<!--    <p class="selected-work">SELECTED WORK</p>-->
+
+<!--</div>-->
+<!--<br>-->
+<!--&lt;!&ndash;<footer>SELECTED WORK</footer>&ndash;&gt;-->
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="column col-lg-2 img-apples">-->
+<!--            <img src="img/apple-ipad.jpg" alt="apples" class="img">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <p>Featured Project</p>-->
+<!--                </div>-->
+<!--                    <div class="col col-lg-1">-->
+<!--                        <span class="small-circle red">D</span>-->
+<!--                    </div>-->
+<!--                    <div class="col col-lg-1">-->
+<!--                        <span class="small-circle orange">D</span>-->
+<!--                    </div>-->
+<!--                    <div class="col col-lg-1">-->
+<!--                        <span class="small-circle green">S</span>-->
+<!--                    </div>-->
+<!--                    <div class="col col-lg-1">-->
+<!--                        <span class="small-circle blue">H</span>-->
+<!--                    </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="container">
+        <div class="row">
+            <div class="img-hidden col-lg-2 column img-macbook">
+                <img src="img/macbook.jpg" alt="macbook" class="img">
+            </div>
         </div>
-        <div class="img-hidden col-lg-2 column img-security">
-            <img src="img/security.jpg" alt="security" class="img">
+        <div class="container">
+
+        </div>
+        <div class="row">
+            <div class="img-hidden col-lg-2 column img-man">
+                <img src="img/man.jpg" alt="man" class="img">
+            </div>
+            <div class="img-hidden col-lg-2 column img-security">
+                <img src="img/security.jpg" alt="security" class="img">
+            </div>
         </div>
     </div>
 </div>
